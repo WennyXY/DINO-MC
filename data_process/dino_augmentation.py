@@ -1,6 +1,6 @@
 
 from torchvision import transforms
-import utils.utils as utils
+import utils as utils
 from PIL import ImageFilter
 
 class DataAugColorMulticrop(object):

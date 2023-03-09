@@ -134,7 +134,7 @@ def get_args_parser():
     parser.add_argument('--local_crops_number', type=int, default=6, help="""Number of small
         local views to generate. Set this parameter to 0 to disable multi-crop training.
         When disabling multi-crop we recommend to use "--global_crops_scale 0.14 1." """)
-    parser.add_argument('--size_crops', type=int, default=[224, 204, 184, 164, 144, 124, 104, 84], help="""Multi-crop size list. """)
+    parser.add_argument('--size_crops', type=int, default=[184, 164, 144, 124, 104, 84], help="""Multi-crop size list. """)
     parser.add_argument('--local_crops_scale', type=float, nargs='+', default=(0.05, 0.32),
         help="""Scale range of the cropped image before resizing, relatively to the origin image.
         Used for small local view cropping of multi-crop.""")
@@ -146,7 +146,7 @@ def get_args_parser():
     # Misc
     parser.add_argument('--data_path', default='/path/to/imagenet/train/', type=str,
         help='Please specify path to the ImageNet training data.')
-    parser.add_argument('--output_dir', default="/data/scratch/projects/punim1672/dino-main-xy/outputs/", type=str, help='Path to save logs and checkpoints.')
+    parser.add_argument('--output_dir', default="output_dir", type=str, help='Path to save logs and checkpoints.')
     parser.add_argument('--saveckp_freq', default=20, type=int, help='Save checkpoint every x epochs.')
     parser.add_argument('--seed', default=0, type=int, help='Random seed.')
     parser.add_argument('--num_workers', default=10, type=int, help='Number of data loading workers per GPU.')
