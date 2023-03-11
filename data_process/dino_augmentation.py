@@ -1,7 +1,8 @@
+# refer to: https://github.com/facebookresearch/swav and DINO 
 
 from torchvision import transforms
-import utils as utils
-from PIL import ImageFilter
+import utils.utils as utils
+# from PIL import ImageFilter
 
 class DataAugColorMulticrop(object):
     def __init__(self, global_crops_scale, local_crops_scale, local_crops_number, size_crops, min_scale_crops, max_scale_crops):

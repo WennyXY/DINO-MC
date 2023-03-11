@@ -30,18 +30,13 @@ import torch.backends.cudnn as cudnn
 import torch.nn.functional as F
 from torchvision import models as torchvision_models
 from torchvision.datasets.folder import IMG_EXTENSIONS
-# from swin_trans import swin_build
 from data_process.dino_dataset import MCBase, MCTemporal
 from data_process.dino_augmentation import *
 
-# from torchvision.models.swin_transformer import SwinTransformer
-
-import utils as utils
-import vision_transformer as vits
-from vision_transformer import DINOHead
+import utils.utils as utils
+import utils.vision_transformer as vits
 import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
-# IMG_EXTENSIONS.append('tif')
 IMG_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.tif', '.tiff')
 
 torchvision_archs = sorted(name for name in torchvision_models.__dict__
@@ -238,7 +233,7 @@ def train_dino(args):
     # multi-crop wrapper handles forward with inputs of different resolutions
     student = utils.MultiCropWrapper(
         student,
-        DINOHead(
+        vits.DINOHead(
             embed_dim, 
             args.out_dim, 
             use_bn=args.use_bn_in_head,
@@ -247,7 +242,7 @@ def train_dino(args):
     )
     teacher = utils.MultiCropWrapper(
         teacher,
-        DINOHead(embed_dim, args.out_dim, args.use_bn_in_head),
+        vits.DINOHead(embed_dim, args.out_dim, args.use_bn_in_head),
     )
     # move networks to gpu
     student, teacher = student.cuda(), teacher.cuda()

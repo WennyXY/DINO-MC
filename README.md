@@ -86,5 +86,6 @@ You can download the full checkpoint of pre-trained model with training infomati
 ## Training
 Our code is based on <a href="https://github.com/facebookresearch/dino">DINO</a> and <a href="https://github.com/ServiceNow/seasonal-contrast">SeCo</a>. 
 If you want to pre-train DINO-MC based on your datasets: 
-1. download DINO code as well as this code
-2. replace main_dino.py with main_dino_mc.py and put data_process in the root directory.
+```
+python run_with_submitit.py --nodes 1 --ngpus 4 --arch vit_small --data_mode mc --data_path /path/to/dataset/train --output_dir /path/to/saving_dir
+```

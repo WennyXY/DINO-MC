@@ -1,3 +1,5 @@
+# refer to: SeCo https://github.com/ServiceNow/seasonal-contrast
+
 import os
 from pathlib import Path
 
@@ -5,12 +7,11 @@ import random
 import numpy as np
 import rasterio
 from PIL import Image
-import utils as utils
+import utils.utils as utils
 from torch.utils.data import Dataset
 from torchvision import transforms
 import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
-# from pl_bolts.models.self_supervised.moco.transforms import GaussianBlur, imagenet_normalization
 
 ALL_BANDS = ['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12']
 RGB_BANDS = ['B4', 'B3', 'B2']
