@@ -103,31 +103,31 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>DINO</td>
     <td>ViT-S/16</td>
     <td>97.98%</td>
-    <td><a href="https://drive.google.com/file/d/1a9VhL88Zr2kf63gCAvvepjgNHw5Lr3I9/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1a9VhL88Zr2kf63gCAvvepjgNHw5Lr3I9/view?usp=share_link">EuroSAT</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
     <td>ViT-S/16</td>
     <td>98.15%</td>
-    <td><a href="https://drive.google.com/file/d/11RQ4UcWXSDm5FLfHOgeup_rB7oBe9ow4/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/11RQ4UcWXSDm5FLfHOgeup_rB7oBe9ow4/view?usp=share_link">EuroSAT</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
     <td>Swin-tiny</td>
     <td>98.43%</td>
-    <td><a href="https://drive.google.com/file/d/1_Yb954b_BxbJ8pAKS9cS2eVytL-6V05D/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1_Yb954b_BxbJ8pAKS9cS2eVytL-6V05D/view?usp=share_link">EuroSAT</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
     <td>ResNet-50</td>
     <td>98.69%</td>
-    <td><a href="https://drive.google.com/file/d/1Ab0sBv5ob7eOao9q1Nv1oMF3UVV50nq7/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1Ab0sBv5ob7eOao9q1Nv1oMF3UVV50nq7/view?usp=share_link">EuroSAT</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
     <td>WRN-50-2</td>
     <td>98.78%</td>
-    <td><a href="https://drive.google.com/file/d/1DSLjLwaZoqeinBDaoqLwpHDYdtXId8R7/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1DSLjLwaZoqeinBDaoqLwpHDYdtXId8R7/view?usp=share_link">EuroSAT</a></td>
   </tr>
 </table>
 
@@ -207,7 +207,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>57.37</td>
     <td>44.21</td>
     <td>49.53</td>
-    <td><a href="https://drive.google.com/file/d/1sWzT81-Hu3AVgXP-VtxljVlw4R3KXGUX/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1sWzT81-Hu3AVgXP-VtxljVlw4R3KXGUX/view?usp=share_link">OSCD</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
@@ -215,7 +215,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>51.94</td>
     <td>54.04</td>
     <td>52.46</td>
-    <td><a href="https://drive.google.com/file/d/1CjSwiTC0PnV31bKW4J6_a-gOxAl7M9iL/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1CjSwiTC0PnV31bKW4J6_a-gOxAl7M9iL/view?usp=share_link">OSCD</a></td>
   </tr>
   <tr>
     <td>DINO-TP</td>
@@ -223,7 +223,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>51.10</td>
     <td>49.03</td>
     <td>49.74</td>
-    <td><a href="https://drive.google.com/file/d/10CX5_QhiUBDsVV6sfsXjDELCrvsk19Dd/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/10CX5_QhiUBDsVV6sfsXjDELCrvsk19Dd/view?usp=share_link">OSCD</a></td>
   </tr>
   <tr>
     <td>DINO</td>
@@ -231,7 +231,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>53.58</td>
     <td> 52.28 </td>
     <td>52.41</td>
-    <td><a href="https://drive.google.com/file/d/1znIQdNornBp7iWuDure39pvD_h7Udkme/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1znIQdNornBp7iWuDure39pvD_h7Udkme/view?usp=share_link">OSCD</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
@@ -239,7 +239,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>49.99</td>
     <td>56.81</td>
     <td>52.70</td>
-    <td><a href="https://drive.google.com/file/d/12a5pndW-asrrVJnJrSWArnt2XCbM4zBE/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/12a5pndW-asrrVJnJrSWArnt2XCbM4zBE/view?usp=share_link">OSCD</a></td>
   </tr>
   <tr>
     <td>DINO-TP</td>
@@ -247,6 +247,6 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td>55.77</td>
     <td>47.30</td>
     <td>50.61</td>
-    <td><a href="https://drive.google.com/file/d/1HQaztXnQhcluBMLtHuCwM8BXmhJ8yTcz/view?usp=share_link">ckpt</a></td>
+    <td><a href="https://drive.google.com/file/d/1HQaztXnQhcluBMLtHuCwM8BXmhJ8yTcz/view?usp=share_link">OSCD</a></td>
   </tr>
 </table>
