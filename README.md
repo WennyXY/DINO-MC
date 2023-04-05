@@ -1,6 +1,6 @@
 # DINO-MC: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops
 
-PyTorch implementation and pretrained models for DINO-MC and DINO-TP. For details, please see <a href="">our paper</a>.
+PyTorch implementation and pretrained models for DINO-MC and DINO-TP. For details, please see <a href="https://arxiv.org/abs/2303.06670">our paper</a>.
 
 ## Pretrained models
 Our models are pre-trained on SeCo-100K, and we list their k-nn and linear probing accuracy on EuroSAT.
