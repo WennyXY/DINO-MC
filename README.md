@@ -250,3 +250,16 @@ After pre-training, you can evaluate the representations on three end-to-end fin
     <td><a href="https://drive.google.com/file/d/1HQaztXnQhcluBMLtHuCwM8BXmhJ8yTcz/view?usp=share_link">OSCD</a></td>
   </tr>
 </table>
+
+## Citation
+If you find this repository useful, please consider giving a star :star: and citation :t-rex::
+```
+@misc{wanyan2023dinomc,
+      title={DINO-MC: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops}, 
+      author={Xinye Wanyan and Sachith Seneviratne and Shuchang Shen and Michael Kirley},
+      year={2023},
+      eprint={2303.06670},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
