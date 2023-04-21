@@ -252,7 +252,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
 </table>
 
 ## Citation
-If you find this repository useful, please consider giving a star :star: and citation :t-rex::
+If you find this repository useful, please consider giving a star :star: and citation:
 ```
 @misc{wanyan2023dinomc,
       title={DINO-MC: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops}, 
