@@ -17,7 +17,7 @@ You can download the full checkpoint of pre-trained model with training infomati
   </tr>
   <tr>
     <td>DINO-MC</td>
-    <td>ViT-S/16</td>
+    <td>ViT-S/8</td>
     <td>21M</td>
     <td>93.41%</td>
     <td>94.09%</td>
@@ -49,7 +49,7 @@ You can download the full checkpoint of pre-trained model with training infomati
   </tr>
   <tr>
     <td>DINO-TP</td>
-    <td>ViT-S/16</td>
+    <td>ViT-S/8</td>
     <td>21M</td>
     <td>93.15%</td>
     <td>93.89%</td>
@@ -101,13 +101,13 @@ After pre-training, you can evaluate the representations on three end-to-end fin
   </tr>
   <tr>
     <td>DINO</td>
-    <td>ViT-S/16</td>
+    <td>ViT-S/8</td>
     <td>97.98%</td>
     <td><a href="https://drive.google.com/file/d/1a9VhL88Zr2kf63gCAvvepjgNHw5Lr3I9/view?usp=share_link">EuroSAT</a></td>
   </tr>
   <tr>
     <td>DINO-MC</td>
-    <td>ViT-S/16</td>
+    <td>ViT-S/8</td>
     <td>98.15%</td>
     <td><a href="https://drive.google.com/file/d/11RQ4UcWXSDm5FLfHOgeup_rB7oBe9ow4/view?usp=share_link">EuroSAT</a></td>
   </tr>
@@ -183,7 +183,7 @@ After pre-training, you can evaluate the representations on three end-to-end fin
   </tr>
   <tr>
     <td>DINO-MC</td>
-    <td>ViT-S/16</td>
+    <td>ViT-S/8</td>
     <td>84.20%</td>
     <td><a href="">BigEarthNet-10% ckpt</a></td>
     <td>88.69%</td>
